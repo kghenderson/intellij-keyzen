@@ -6,6 +6,9 @@ https://github.com/kghenderson/intellij-keyzen
 
 Plugin Page: 
 https://plugins.jetbrains.com/plugin/20228-keyzen
+      
+PluginID:
+`com.github.kghenderson.intellijkeyzen`
 
 
 Jetbrains Plugin Guide

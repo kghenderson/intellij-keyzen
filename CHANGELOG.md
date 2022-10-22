@@ -2,7 +2,12 @@
 
 # intellij-keyzen Changelog
 
-                       
+                                    
+## [0.2.0]
+### Added
+- Updated readme
+- Added more PC Keybindings
+
 
 ## [0.1.0]
 ### Added
