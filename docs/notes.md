@@ -20,6 +20,8 @@ https://plugins.jetbrains.com/intellij-platform-explorer/extensions
 Plugin Signing (Run Configuration)
 https://plugins.jetbrains.com/docs/intellij/plugin-signing.html#provide-secrets-to-ide
 
+Internal Mode  for Tools -> Internal Actions:
+https://plugins.jetbrains.com/docs/intellij/enabling-internal.html
 
 
 Existing Keymaps
