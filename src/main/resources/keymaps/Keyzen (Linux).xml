@@ -1,0 +1,206 @@
+<keymap version="1" name="Keyzen (Linux)" parent="$default">
+  <!-- Cursor Down -->
+  <action id="EditorDown">
+      <keyboard-shortcut first-keystroke="down" /><!-- "down" -->
+      <keyboard-shortcut first-keystroke="meta ctrl alt k" /><!-- "hyper+k" -->
+  </action>
+  <!-- Cursor Up -->
+  <action id="EditorUp">
+      <keyboard-shortcut first-keystroke="up" /><!-- "up" -->
+      <keyboard-shortcut first-keystroke="meta ctrl alt i" /><!-- "hyper+i" -->
+  </action>
+  <!-- Cursor to Right -->
+  <action id="EditorRight">
+      <keyboard-shortcut first-keystroke="right" /><!-- "right" -->
+      <keyboard-shortcut first-keystroke="meta ctrl alt l" /><!-- "hyper+l" -->
+  </action>
+  <!-- Cursor Left -->
+  <action id="EditorLeft">
+      <keyboard-shortcut first-keystroke="left" /><!-- "left" -->
+      <keyboard-shortcut first-keystroke="meta ctrl alt j" /><!-- "hyper+j" -->
+  </action>
+  <!-- Cursor to Subword Right -->
+  <action id="EditorNextWordInDifferentHumpsMode">
+      <keyboard-shortcut first-keystroke="meta alt right" /><!-- "thumb+right" -->
+  </action>
+  <!-- Cursor to Subword Left -->
+  <action id="EditorPreviousWordInDifferentHumpsMode">
+      <keyboard-shortcut first-keystroke="meta alt left" /><!-- "thumb+left" -->
+  </action>
+  <!-- Cursor to Word Right -->
+  <action id="EditorNextWord">
+      <keyboard-shortcut first-keystroke="ctrl right" /><!-- "pinky+right" -->
+      <keyboard-shortcut first-keystroke="meta ctrl alt o" /><!-- "hyper+o" -->
+  </action>
+  <!-- Cursor to Word Left -->
+  <action id="EditorPreviousWord">
+      <keyboard-shortcut first-keystroke="ctrl left" /><!-- "pinky+left" -->
+      <keyboard-shortcut first-keystroke="meta ctrl alt u" /><!-- "hyper+u" -->
+  </action>
+  <!-- Cursor to Line End -->
+  <action id="EditorLineEnd">
+      <keyboard-shortcut first-keystroke="end" /><!-- "end" -->
+      <keyboard-shortcut first-keystroke="meta ctrl alt semicolon" /><!-- "hyper+;" -->
+      <keyboard-shortcut first-keystroke="meta ctrl alt right" /><!-- "pinky+thumb+right" -->
+  </action>
+  <!-- Cursor to Line Begin -->
+  <action id="EditorLineStart">
+      <keyboard-shortcut first-keystroke="home" /><!-- "home" -->
+      <keyboard-shortcut first-keystroke="meta ctrl alt h" /><!-- "hyper+h" -->
+      <keyboard-shortcut first-keystroke="meta ctrl alt left" /><!-- "pinky+thumb+left" -->
+  </action>
+  <!-- Cursor to Page Down -->
+  <action id="EditorPageDown">
+      <keyboard-shortcut first-keystroke="page_down" /><!-- "pagedown" -->
+      <keyboard-shortcut first-keystroke="meta ctrl alt h" /><!-- "hyper+h" -->
+  </action>
+  <!-- Cursor to Page Up -->
+  <action id="EditorPageUp">
+      <keyboard-shortcut first-keystroke="page_up" /><!-- "pageup" -->
+      <keyboard-shortcut first-keystroke="meta ctrl alt y" /><!-- "hyper+y" -->
+  </action>
+  <!-- Cursor to File End -->
+  <action id="EditorTextEnd">
+      <keyboard-shortcut first-keystroke="ctrl end" /><!-- "pinky+end" -->
+      <keyboard-shortcut first-keystroke="meta ctrl alt b" /><!-- "hyper+b" -->
+  </action>
+  <!-- Cursor to File Begin -->
+  <action id="EditorTextStart">
+      <keyboard-shortcut first-keystroke="ctrl home" /><!-- "pinky+home" -->
+      <keyboard-shortcut first-keystroke="meta ctrl alt t" /><!-- "hyper+t" -->
+  </action>
+  <!-- Caret Above -->
+  <action id="EditorCloneCaretAbove">
+      <keyboard-shortcut first-keystroke="meta alt shift up" /><!-- "thumb+shift+up" -->
+  </action>
+  <!-- Caret Below -->
+  <action id="EditorCloneCaretBelow">
+      <keyboard-shortcut first-keystroke="meta alt shift down" /><!-- "thumb+shift+down" -->
+  </action>
+  <!-- Select Down -->
+  <action id="EditorDownWithSelection">
+      <keyboard-shortcut first-keystroke="shift down" /><!-- "shift+down" -->
+      <keyboard-shortcut first-keystroke="meta ctrl alt shift k" /><!-- "hyper+shift+k" -->
+  </action>
+  <!-- Select Up -->
+  <action id="EditorUpWithSelection">
+      <keyboard-shortcut first-keystroke="shift up" /><!-- "shift+up" -->
+      <keyboard-shortcut first-keystroke="meta ctrl alt shift i" /><!-- "hyper+shift+i" -->
+  </action>
+  <!-- Select Right -->
+  <action id="EditorRightWithSelection">
+      <keyboard-shortcut first-keystroke="shift right" /><!-- "shift+right" -->
+      <keyboard-shortcut first-keystroke="meta ctrl alt shift l" /><!-- "hyper+shift+l" -->
+  </action>
+  <!-- Select to Left -->
+  <action id="EditorLeftWithSelection">
+      <keyboard-shortcut first-keystroke="shift left" /><!-- "shift+left" -->
+      <keyboard-shortcut first-keystroke="meta ctrl alt shift j" /><!-- "hyper+shift+j" -->
+  </action>
+  <!-- Select to Subword Right -->
+  <action id="EditorNextWordInDifferentHumpsModeWithSelection">
+      <keyboard-shortcut first-keystroke="meta alt shift right" /><!-- "thumb+shift+right" -->
+  </action>
+  <!-- Select to Subword Left -->
+  <action id="EditorPreviousWordInDifferentHumpsModeWithSelection">
+      <keyboard-shortcut first-keystroke="meta alt shift left" /><!-- "thumb+shift+left" -->
+  </action>
+  <!-- Select to Word Right -->
+  <action id="EditorNextWordWithSelection">
+      <keyboard-shortcut first-keystroke="ctrl shift right" /><!-- "pinky+shift+right" -->
+      <keyboard-shortcut first-keystroke="meta ctrl alt shift o" /><!-- "hyper+shift+o" -->
+  </action>
+  <!-- Select to Word Left -->
+  <action id="EditorPreviousWordWithSelection">
+      <keyboard-shortcut first-keystroke="ctrl shift left" /><!-- "pinky+shift+left" -->
+      <keyboard-shortcut first-keystroke="meta ctrl alt shift u" /><!-- "hyper+shift+u" -->
+  </action>
+  <!-- Select to Line End -->
+  <action id="EditorLineEndWithSelection">
+      <keyboard-shortcut first-keystroke="shift end" /><!-- "shift+end" -->
+      <keyboard-shortcut first-keystroke="meta ctrl alt shift close_bracket" /><!-- "hyper+shift+]" -->
+      <keyboard-shortcut first-keystroke="meta ctrl alt shift right" /><!-- "pinky+thumb+shift+right" -->
+  </action>
+  <!-- Select to Line Begin -->
+  <action id="EditorLineStartWithSelection">
+      <keyboard-shortcut first-keystroke="shift home" /><!-- "shift+home" -->
+      <keyboard-shortcut first-keystroke="meta ctrl alt shift open_bracket" /><!-- "hyper+shift+[" -->
+      <keyboard-shortcut first-keystroke="meta ctrl alt shift left" /><!-- "pinky+thumb+shift+left" -->
+  </action>
+  <!-- Select Page Down -->
+  <action id="EditorPageDownWithSelection">
+      <keyboard-shortcut first-keystroke="shift page_down" /><!-- "shift+pagedown" -->
+      <keyboard-shortcut first-keystroke="meta ctrl alt shift h" /><!-- "hyper+shift+h" -->
+  </action>
+  <!-- Select Page Up -->
+  <action id="EditorPageUpWithSelection">
+      <keyboard-shortcut first-keystroke="shift page_up" /><!-- "shift+pageup" -->
+      <keyboard-shortcut first-keystroke="meta ctrl alt shift y" /><!-- "hyper+shift+y" -->
+  </action>
+  <!-- Select to File End -->
+  <action id="EditorTextEndWithSelection">
+      <keyboard-shortcut first-keystroke="ctrl shift end" /><!-- "pinky+shift+end" -->
+      <keyboard-shortcut first-keystroke="meta ctrl alt shift b" /><!-- "hyper+shift+b" -->
+  </action>
+  <!-- Select to File Begin -->
+  <action id="EditorTextStartWithSelection">
+      <keyboard-shortcut first-keystroke="ctrl shift home" /><!-- "pinky+shift+home" -->
+      <keyboard-shortcut first-keystroke="meta ctrl alt shift t" /><!-- "hyper+shift+t" -->
+  </action>
+  <!-- Insert Parent Node Above -->
+  <action id="EditorStartNewLineBefore">
+      <keyboard-shortcut first-keystroke="ctrl shift y" /><!-- "pinky+shift+y" -->
+  </action>
+  <!-- Insert Sibling Node Above -->
+  <action id="EditorStartNewLineBefore">
+      <keyboard-shortcut first-keystroke="ctrl shift u" /><!-- "pinky+shift+u" -->
+  </action>
+  <!-- Insert Sibling Node Below -->
+  <action id="EditorStartNewLine">
+      <keyboard-shortcut first-keystroke="ctrl shift n" /><!-- "pinky+shift+n" -->
+  </action>
+  <!-- Insert Child Node Below -->
+  <action id="EditorStartNewLine">
+      <keyboard-shortcut first-keystroke="ctrl shift m" /><!-- "pinky+shift+m" -->
+  </action>
+  <!-- Duplicate Node -->
+  <action id="EditorDuplicateLines">
+      <keyboard-shortcut first-keystroke="ctrl d" /><!-- "pinky+d" -->
+  </action>
+  <!-- Move Node Up -->
+  <action id="MoveLineUp">
+      <keyboard-shortcut first-keystroke="ctrl shift i" /><!-- "pinky+shift+i" -->
+  </action>
+  <!-- Move Node Down -->
+  <action id="MoveLineDown">
+      <keyboard-shortcut first-keystroke="ctrl shift k" /><!-- "pinky+shift+k" -->
+  </action>
+  <!-- Move Node Left -->
+  <action id="EditorUnindentSelection">
+      <keyboard-shortcut first-keystroke="ctrl shift j" /><!-- "pinky+shift+j" -->
+  </action>
+  <!-- Move Node Right -->
+  <action id="EditorIndentLineOrSelection">
+      <keyboard-shortcut first-keystroke="ctrl shift l" /><!-- "pinky+shift+l" -->
+  </action>
+  <!-- Rename Node -->
+  <action id="RenameElement">
+      <keyboard-shortcut first-keystroke="ctrl t" /><!-- "pinky+t" -->
+  </action>
+  <!-- Join Nodes -->
+  <action id="EditorJoinLines">
+      <keyboard-shortcut first-keystroke="ctrl shift o" /><!-- "pinky+shift+o" -->
+  </action>
+  <!-- Split Node -->
+  <action id="EditorSplitLine">
+      <keyboard-shortcut first-keystroke="ctrl enter" /><!-- "pinky+enter" -->
+  </action>
+  <!-- Delete Node -->
+  <action id="EditorDeleteLine">
+      <keyboard-shortcut first-keystroke="ctrl shift x" /><!-- "pinky+shift+x" -->
+  </action>
+    
+  <action id="ShowSettings">
+      <keyboard-shortcut first-keystroke="ctrl comma" />
+  </action>
+</keymap>
