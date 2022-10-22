@@ -1,18 +1,13 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.kghenderson.intellijkeyzen</id>
-    <name>intellij-keyzen</name>
-    <vendor>kghenderson</vendor>
+    <name>Keyzen</name>
+    <vendor url="https://github.com/kghenderson/intellij-keyzen">Kevin Henderson (kghenderson)</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.kghenderson.intellijkeyzen.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.kghenderson.intellijkeyzen.services.MyProjectService"/>
+        <bundledKeymap file="Keyzen (PC).xml"/>
     </extensions>
 
-    <applicationListeners>
-        <listener class="com.github.kghenderson.intellijkeyzen.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
 </idea-plugin>

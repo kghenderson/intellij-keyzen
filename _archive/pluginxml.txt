@@ -1,0 +1,10 @@
+
+    <extensions defaultExtensionNs="com.intellij">
+        <applicationService serviceImplementation="com.github.kghenderson.intellijkeyzen.services.MyApplicationService"/>
+        <projectService serviceImplementation="com.github.kghenderson.intellijkeyzen.services.MyProjectService"/>
+    </extensions>
+
+    <applicationListeners>
+        <listener class="com.github.kghenderson.intellijkeyzen.listeners.MyProjectManagerListener"
+                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
+    </applicationListeners>
